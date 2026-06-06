@@ -1,47 +1,15 @@
-# 05-DESIGN-AND-ANALYSIS-OF-MICROSTRIP-ANTENNA-USING-CST-MICROWAVE-STUDIO (LAYOUT)
+# Ex-06--DESIGN-AND-ANALYSIS-OF-MICROSTRIP-ANTENNA-USING-CST-MICROWAVE-STUDIO-SCHEMATIC
 
-**Aim of the Experiment:** To design a quarter wave transformer for matching a 50 Ohm microstrip line with a load of 123 Ohms
-Software to be used: CST studio suite 2019 (Student edition)
+## Aim:
+To design a quarter wave transformer for matching a 50 Ohm microstrip line with a load of 123 Ohms Software to be used: CST studio suite 2019 (Student edition)
 
-**Design:**
+## Design:
 
-**Mathematical Calculation**
+RF system architecture can be implemented using RF System models available in the Analog/RF library
+<img width="547" height="331" alt="image" src="https://github.com/user-attachments/assets/fd0f1344-e81a-42f8-989d-e756dd9cc14f" />
+<img width="619" height="495" alt="image" src="https://github.com/user-attachments/assets/42d0eb67-8112-4107-b1f8-9d0dd946b7b5" />
+<img width="619" height="306" alt="image" src="https://github.com/user-attachments/assets/f395f33a-6106-4bdb-bf14-21bb78c255b1" />
+<img width="619" height="475" alt="image" src="https://github.com/user-attachments/assets/58b42f0d-3a86-4062-97a9-d6b30f703108" />
 
-<img width="601" height="420" alt="image" src="https://github.com/user-attachments/assets/b6c74464-e862-4d26-be7c-e76738107067" />
-
-Width of the quarter wave line=1.138 mmWidth of the stripline=2.93 mm
-Height of the substrate=1.6 mmZ0=50 ohm,ZL=123 ohm Zo’=√(50*123)= 78.42 ohm
-Length of the quarter wave line = 18mmLamda g =72 , Lamda not=128
-Bandwidth calculation from s-parameter in quater wave line=1.33 GhzFrequency=2.4 Ghzc, Ε eff=3.024
-
-**	Design of microstrip line terminated with the desired load**
-
-
-<img width="621" height="185" alt="image" src="https://github.com/user-attachments/assets/908adc01-814f-450c-b969-7e1342681af4" />
-
-
-**S11 characteristics of the microstrip line terminated with the load**
-
-
-<img width="640" height="203" alt="image" src="https://github.com/user-attachments/assets/f7d30519-56c3-4642-b446-7b93a7a1e33b" />
-
-
-**	Design of microstrip line terminated with quarter wave line and the desired load**
-
-
-<img width="642" height="184" alt="image" src="https://github.com/user-attachments/assets/4fcf36a6-131b-45e0-b569-8f50565faf0e" />
-
-
-**	S11 characteristics of the microstrip line terminated with quarter wave line and the desired load**
-
-
-<img width="558" height="162" alt="image" src="https://github.com/user-attachments/assets/863dbdd2-254c-4165-b167-3bdbb331efc7" />
-
-
-**Conclusion:**
-
-From this experiment we got the bandwidth value of 1.33 Ghz with a impedance matching of 78.42 ohm and also got the width of quarter wave line of 1.138 mm.
-
-
-
-
+## Conclusion:
+Thus,the quarter-wave transformer was successfully designed and simulated using CST Studio Suite 2019 to match a 50 Ω microstrip line with a 123 Ω load. The simulation results verified efficient impedance matching, showing minimal reflection and improved power transfer at the designed frequency.
